@@ -10,9 +10,9 @@ Loop, parse, clipboard, `n, `r
     Send +^t
     Sleep, 200
     Send +{Home}
-    Sleep, 80
+    Sleep, 120
     Send +^{End}
-    Sleep, 80
+    Sleep, 160
     Loop, parse, Row, %A_Tab%
     {
         ColumnNumber := A_Index
